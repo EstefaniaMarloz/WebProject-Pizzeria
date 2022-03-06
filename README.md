@@ -1,7 +1,7 @@
 # Web Project Pizzeria
 Creation of web page for pizzeria, with customer interaction.  Proposed practice website for Launch X "Innovación Virtual".
 
-#Proyecto web para Pizzeria 
+# Proyecto web para Pizzeria 
 
 Maquetación en HTML.
 Caso: Pizzeria
