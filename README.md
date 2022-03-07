@@ -27,3 +27,5 @@ Bonus: En caso de que te quede corto el ejercicio siguele con esto!<br>
 - Bonus de estilos (Intro a CSS)
 - Bonus de Rutas (Navegación en la página)
 - Bonus de despliegue (Montar la página en línea con dominio gratuito)
+
+![image](https://user-images.githubusercontent.com/26169699/156977120-6e69f550-be4d-468e-9594-2a65bef50679.png)
