@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria Pepperonchis</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="navigation-container">
+    <div class="navigation-content">
+           
+<!--logo-->
+    <div class="logo">
+    <img src="../images/logo-pizzeria.png" width="80" height="75">
+    </div>
+
+<!--menu-->
+<div class="menu">
+<ul>
+    <li><a href= "#">MENU</a></li>
+    <li><a href= "#">ORDENA ONLINE</a></li>
+</ul>    
+</div>
+
+<!--cart-->
+<div class="carrito"></div>
+
+<form>
+<div> 
+    <h2>Haz pedido de pizza</h2>
+    <h3>Añade sabor que deseas pedir</h3>
+</div>
+    <div>
+<label for="Sabor">Sabor</label>
+    <select name="Sabor">
+        <option value="">Seleccione categoria
+        </option>
+
+        <option value="Pepperoni">Pepperoni</option>
+        <option value="Hawaiana">Hawaiana</option>
+        <option value="CarnesFrias">Carnes Frias</option>
+    </select>
+    </div>
+
+
+
+    <div id="toppings"></div>
+    <div>
+    <label for="toppings">Toppings</label>
+            <select name="toppings">
+                <option value="">Seleccione categoria
+                </option>
+        
+                <option value="Chile">Chile Molido</option>
+                <option value="Parmesano">Parmesano</option>
+                <option value="Ajo">Ajo en polvo</option>
+            </select>
+                 </div>
+
+    <div>
+        <label for="cantidad">Cantidad: </label>
+   <input type="number"
+   name="cantidad" id="cantidad" class="input"
+   min=1 max=50 required>
+    </div>
+
+    <div>
+        <input type="submit" id="send-button" name="send-button" class="button">
+        <input type="reset" value="Borrar" class="button">
+    </div>
+
+    <div class="container">    </div>
+    <div> 
+        <input type="button" value="Completar compra" id="finish"
+        class="button">
+
+    </div>
+
+
+</form>
+    
+</body>
+</html></html>
